@@ -1,0 +1,19 @@
+.vscode/
+.idea/
+.catkin_tools/
+build/
+cmake-build-debug/
+devel/
+*.zip
+
+# logs
+*.pyc
+*.bag
+*.bmp
+*.png
+*.pkl
+
+*.so
+*.weights
+
+/CMakeLists.txt
