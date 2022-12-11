@@ -57,12 +57,12 @@ if __name__=="__main__":
     # bs_task.task_print_rpy()
  
     # 测试速度接口
-    # bs_task.task_test_vel()
+    bs_task.task_test_vel()
     # bs_task.task_test_velENU()
     
     # 测试位置接口
     # 别用位置接口，会变的不幸
-    bs_task.task_test_pos()
+    # bs_task.task_test_pos()
     
     # 测试速度极限
     # bs_task.task_test_vel_fast()

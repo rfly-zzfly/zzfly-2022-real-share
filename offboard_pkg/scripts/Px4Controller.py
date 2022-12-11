@@ -267,9 +267,7 @@ class Px4Controller:
 
     def takeoff(self, vz=0.8, h=1.5):
         '''
-        需要先
-        直接给速度起飞，好像有啥问题来着
-        起飞完成后速度清零
+        直接给速度起飞，起飞完成后速度清零
         '''
         # 切换到速度控制模式
         self.controller_swith(ctrl_type="vel")
@@ -296,7 +294,7 @@ class Px4Controller:
     
     def takeoff_pos(self,h=1.8):
         '''
-        直接给
+        直接给位置指令起飞
         '''
 
         if not self.takeoff_check():
@@ -330,10 +328,16 @@ class Px4Controller:
 
 
     def moveByVelocityYawrateBodyFrame(self, vx=0, vy=0, vz=0, yaw_rate=0):
+        '''
+        机体系中FLU的速度
+        '''
         self.controller_swith(ctrl_type="vel")
         self.command_vel = construct_vel_target(vx, vy, vz, yaw_rate)
 
     def moveByVelocityYawrateENU(self, vx=0, vy=0, vz=0, yaw_rate=0):
+        '''
+        世界系中ENU的速度
+        '''
         self.controller_swith(ctrl_type="vel")
         self.command_vel = construct_vel_target(vx, vy, vz, yaw_rate, frame="ENU")
 

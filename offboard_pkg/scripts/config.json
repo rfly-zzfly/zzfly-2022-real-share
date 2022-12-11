@@ -1,0 +1,26 @@
+{
+    "wpL":[
+        {
+            "name":"09_65",
+            "real_pos_flu":[1.00, 0.00, 0.0],
+            "method": "ring_normal",
+            "tgt_vel": 2.0,
+            "tgt_yaw": 0,
+            "vs_dict": {
+                "vx": 2,
+            },
+        },
+        {
+            "name":"10_65_special",
+            "real_pos_flu":[1.00, 0.00, 0.0],
+            "method": "ring_normal",
+            "tgt_vel": 2.0,
+            "tgt_yaw": 0,
+            "vs_dict": {
+                "vx": 2,
+            },
+        },
+
+    ]
+    
+}
