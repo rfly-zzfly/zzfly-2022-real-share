@@ -304,7 +304,9 @@ task_test_pos()				位置控制指令，好像有点问题
 
 ### 任务全流程
 
-<iframe src="//player.bilibili.com/player.html?aid=348742224&bvid=BV1mR4y1r7EL&cid=920133293&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+单击图片播放
+
+[![](readme/buaa-zzfly-2022-sharev6.png)](https://www.bilibili.com/video/BV1mR4y1r7EL)
 
 ## 未来优化的方向
 
